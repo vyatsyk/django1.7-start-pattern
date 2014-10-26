@@ -6,7 +6,7 @@ git pull >> ~/deployment
 echo FINISHED PULL >> ~/deployment
 echo -------------------------------------- >> ~/deployment
 echo COLLECTING python django requirements >> ~/deployment
-pip install -r /home/web/project/requirements.txt --upgrade  >> ~/deployment
+sudo pip install -r /home/web/project/requirements.txt --upgrade  >> ~/deployment
 echo FINISHED collecting python django requirements >> ~/deployment
 echo -------------------------------------- >> ~/deployment
 echo Collectin node dependencies >> ~/deployment
@@ -14,7 +14,7 @@ cd /home/web/project/app/static/
 npm install >> ~/deployment
 echo Node Depenedencies collected >> ~/deployment
 echo Collecting bower dependencies >> ~/deployment
-node_modules/bower/bin/bower install >> ~/deployment
+     >> ~/deployment
 echo Bower dependencies collected >> ~/deployment
 echo Running grunt >> ~/deployment
 grunt deployment >> ~/deployment
