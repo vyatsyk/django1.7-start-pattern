@@ -8,5 +8,5 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^deployment/', lambda r: HttpResponse(open('~/deployment'), content_type="text/plain")),
+    url(r'^deployment/', lambda r: HttpResponse(open('/home/web/deployment'), content_type="text/plain")),
 )
