@@ -1,0 +1,15 @@
+{
+    "name": "picture_store",
+    "version": "0.1.0",
+    "devDependencies": {
+        "grunt": "*",
+        "bower": "*",
+        "grunt-contrib-concat": "*",
+        "grunt-contrib-copy": "^0.6.0",
+        "grunt-contrib-cssmin": "^0.10.0",
+        "grunt-contrib-less": "^0.11.4",
+        "grunt-contrib-uglify": "*",
+        "grunt-contrib-watch": "*",
+        "grunt-contrib-clean": "*"
+    }
+}
